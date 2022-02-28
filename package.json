@@ -1,0 +1,19 @@
+{
+  "name": "js-progressive-enhancement-s1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasonFelgenhauer/js-progressive-enhancement-s1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JasonFelgenhauer/js-progressive-enhancement-s1/issues"
+  },
+  "homepage": "https://github.com/JasonFelgenhauer/js-progressive-enhancement-s1#readme"
+}
