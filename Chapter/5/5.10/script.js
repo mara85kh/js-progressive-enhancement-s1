@@ -80,18 +80,5 @@
 	];
 
 	// your code here
-	document.getElementById('run').addEventListener('click', () => {
-		const result = people.reduce((a, b) => {
-			const found = a.find((v) => v.age === b.name);
-			const value = { age: b.age, val: b.value };
-			if (found) {
-				a.push(...value);
-			} else {
-				a.push({ age: b.age, data: [{ value: b.value }, { count: b.count }] });
-			}
-			return a;
-		}, []);
-
-		console.log(result);
-	});
+	document.getElementById('run').addEventListener('click', () => {});
 })();
