@@ -80,5 +80,12 @@
 	];
 
 	// your code here
-	document.getElementById('run').addEventListener('click', () => {});
+	document.getElementById('run').addEventListener('click', () => {
+		let result = 0;
+		people.reduce((a, b) => {
+			console.log(b.age);
+			result += b.age;
+		});
+		console.log('Total ages : ' + result);
+	});
 })();
